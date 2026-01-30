@@ -1,4 +1,4 @@
-# Work In Progress.
+# ![WIP](https://img.shields.io/badge/status-WIP-orange) Work In Progress.
 
 # Anime Tracker Extension
 
