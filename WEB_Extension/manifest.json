@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "AAAAAAAAAAAAAAAA",
+    "version": "1.0",
+    "description": "Rien",
+    "permissions": [
+        "storage",
+        "tabs",
+        "alarms",
+        "offscreen",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://anime-sama.si/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://anime-sama.si/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
